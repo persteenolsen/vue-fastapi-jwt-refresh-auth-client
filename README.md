@@ -58,7 +58,7 @@ volta list node
 # Tech used for the Web API for this Web Client
 
 - Python FastAPI
-- PostgreSQ
+- PostgreSQL
 - OpenAPI / Swagger
 - Serves Auth by JWT with Refresh Tokens
 - Hosted at Vercel Cloud using Serverless Functions
