@@ -15,7 +15,7 @@ usersStore.getAll();
 <template>
     <div>
         <h1>Hi {{authUser?.username}}!</h1>
-        <p>You're logged in with Vue 3 + JWT with Refresh Tokens!</p>
+        <p>You're logged in by Vue 3 using JWT with Refresh Token Rotation!</p>
         <h3>Users from secure api end point:</h3>
         <ul v-if="users.length">
             <li v-for="user in users" :key="user.id">{{user.username}} - {{user.name}}</li>
