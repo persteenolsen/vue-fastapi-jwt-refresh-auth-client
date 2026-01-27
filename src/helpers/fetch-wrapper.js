@@ -73,15 +73,16 @@ function handleResponse(response) {
             
             let error = "";
             
-            // 25-01-2026 - Modified error handling to validate status code if User Credentials are wrong
-            //if( response.status.equals('')) 
-            //    error = (data && data.message) || response.statusText;
-            //else
+            // 27-12-2025 - Get the error message           
             error = (data && data.message) || response.statusText || response.status;
             
+            // 27-12-2025 - Custom error message for 401 status 
+            if( response.status === 401 )
+                error = "Access Denied! Try to enter Username and Password again...";
+
             // Debugging logs for error status
             console.log('fetch-wrapper.js - Status code by response.statusText: ' + response.statusText);
-           
+                        
             return Promise.reject(error);
         }
 
