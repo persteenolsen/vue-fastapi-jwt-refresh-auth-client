@@ -1,8 +1,8 @@
 # vue-3-pinia-jwt-refresh-tokens
 
-Vue 3 + Pinia - Authentication by JWT with Refresh Tokens Example and Tutorial
+Vue 3 + Pinia - Authentication by JWT with Refresh Token Rotation Example and Tutorial
 
-Last updated: 26-01-2026
+Last updated: 27-01-2026
 
 Node version: 24.13.0
 
@@ -59,22 +59,24 @@ volta list node
 
 - Python FastAPI
 - PostgreSQL
+- SQLAlhemy as ORM
+- Alembic for Migration
 - OpenAPI / Swagger
-- Serves Auth by JWT with Refresh Tokens
+- Serves Auth by JWT with Refresh Token Rotation
 - Hosted at Vercel Cloud using Serverless Functions
 
 # Things to consider for future versions
 
-- Set the minuttes for the JWT Access Tokens to 15 in .env
+- You could set the minuttes for the JWT Access Tokens to 15 in .env
 
-- Set the minuttes for the JWT Refresh Tokens to 7 DAYS in .env
+- You could set the minuttes for the JWT Refresh Tokens to 7 DAYS in .env
 
-- Implement Refresh token rotation
+- Implement Refresh token in a HTTP Only Cookie
 
-- Implement Revoked token reuse detection
+- Implement Revoked token reuse detection (The PostgreSQL is ready)
 
 - Protect the API Routes by Rate limits
 
-The Vue + FastAPI was made in a simple way for showing the Authentication flow by JWT and Refresh Tokens
+The Vue + FastAPI was made in a simple way for showing the Authentication flow by JWT and Refresh Token Rotation
 
 Happy coding :-)
