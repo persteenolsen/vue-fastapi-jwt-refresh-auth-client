@@ -21,9 +21,8 @@ export const useAuthStore = defineStore({
             // 26-01-2026 - Debugging
             console.log( 'Auth.store.js - Login - RefreshToken: ' + this.rToken );
             
-            // 26-01-2026 - Calling the timer to request for tokens before they will expire
-            // Note: For testing the flow this could be comment out temporary IF there were more meny items for navigate
-            // However, in all cases the User will be logged out if refreshing the Browser ( using localstorage could prevent that )
+            // 27-01-2026 - Call the timer to request for JWT Access Token and Refresh Token
+            // just before they will expire
             this.startRefreshTokenTimer();
 
         },

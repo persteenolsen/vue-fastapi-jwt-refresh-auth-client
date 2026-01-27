@@ -23,7 +23,11 @@ async function startApp () {
     // attempt to auto refresh token before startup
     try {
         const authStore = useAuthStore();
-        await authStore.refreshToken();
+
+        // 27-01-2026 - Disable auto refresh token before User Authentication
+        // The User will manually login to get both access and refresh tokens
+        // await authStore.refreshToken();
+
     } catch {
         // catch error to start app on success or failure
     }
