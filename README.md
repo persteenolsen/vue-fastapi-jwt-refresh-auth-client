@@ -59,7 +59,7 @@ volta list node
 
 - Python FastAPI
 - PostgreSQL
-- SQLAlhemy as ORM
+- SQLAlchemy as ORM
 - Alembic for Migration
 - OpenAPI / Swagger
 - Serves Auth by JWT with Refresh Token Rotation
