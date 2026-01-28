@@ -59,6 +59,7 @@ volta list node
 
 - Python FastAPI
 - PostgreSQL
+- Pydantic for data validation with schemas
 - SQLAlchemy as ORM
 - Alembic for Migration
 - OpenAPI / Swagger
