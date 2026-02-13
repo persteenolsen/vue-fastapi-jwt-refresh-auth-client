@@ -2,7 +2,7 @@
 
 Vue 3 + Pinia - Authentication by JWT with Refresh Token Rotation Example and Tutorial
 
-Last updated: 06-02-2026
+Last updated: 13-02-2026
 
 Node version: 24.13.0
 
