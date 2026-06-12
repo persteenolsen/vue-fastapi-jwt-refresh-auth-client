@@ -1,6 +1,6 @@
 # vue-3-pinia-jwt-refresh-tokens
 
-Vue 3 + Pinia - Authentication by JWT with Refresh Token Rotation Example and Tutorial
+Vue 3 + Pinia - Authentication by JWT with Refresh Token Renewal Example and Tutorial
 
 Last updated: 12-06-2026
 
@@ -63,7 +63,7 @@ volta list node
 - SQLAlchemy as ORM
 - Alembic for Migration
 - OpenAPI / Swagger
-- Serves Auth by JWT with Refresh Token Rotation
+- Serves Auth by JWT with Refresh Token Renewal
 - Hosted at Vercel Cloud using Serverless Functions
 
 # Things to consider for future versions
@@ -78,6 +78,6 @@ volta list node
 
 - Protect the API Routes by Rate limits
 
-The Vue + FastAPI was made in a simple way for showing the Authentication flow by JWT and Refresh Token Rotation
+The Vue + FastAPI was made in a simple way for showing the Authentication flow by JWT and Refresh Token Renewal
 
 Happy coding :-)
