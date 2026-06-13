@@ -37,7 +37,7 @@ function onSubmit(values, { setErrors }) {
         <h3>Vue 3 SPA + FastAPI doing Authentication by JWT and Refresh Token Renewal</h3>
         
         <br/><br />
-        <b>Last updated:</b> 12-06-2026
+        <b>Last updated:</b> 13-06-2026
         <br /><br />
 
         <div class="alert alert-info">
